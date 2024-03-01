@@ -1,0 +1,2 @@
+(()=>{"use strict";document.write("Hello, webpack!")})();
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsIm1hcHBpbmdzIjoibUJBR0FBLFNBQVNDLE1BQU0sa0IiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9teV9wcm9qZWN0Ly4vc3JjL2luZGV4LmpzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAnLi9zdHlsZS5jc3MnO1xyXG5cclxuXHJcbmRvY3VtZW50LndyaXRlKCdIZWxsbywgd2VicGFjayEnKTsiXSwibmFtZXMiOlsiZG9jdW1lbnQiLCJ3cml0ZSJdLCJzb3VyY2VSb290IjoiIn0=

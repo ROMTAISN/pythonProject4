@@ -1,0 +1,35 @@
+{
+  "name": "my_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.dev.js",
+    "final-build": "webpack --config webpack.config.prod.js",
+    "start-dev": "webpack serve --config webpack.config.dev.js",
+    "start-prod": "webpack serve --config webpack.config.prod.js",
+    "prepare": "husky",
+    "start:app-dev-db": "concurrently \"npm run start-dev\" \"npx json-server --watch data.json\"",
+    "start:app-db": "concurrently \"npm run start-prod\" \"npx json-server --watch data.json\""
+  },
+  "author": "romtaisn",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "eslint": "^8.57.0",
+    "eslint-webpack-plugin": "^4.0.1",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "style-loader": "^3.3.4",
+    "stylelint": "^16.2.1",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "husky": "^9.0.11",
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
