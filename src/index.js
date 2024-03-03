@@ -1,4 +1,6 @@
 import './style.css';
+import '../script.js';
 
 
-document.write('Hello, webpack!');
+let container = document.getElementById('container');
+container.innerHTML = 'Hello, Webpack!';

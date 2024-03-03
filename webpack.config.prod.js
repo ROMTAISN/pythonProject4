@@ -6,13 +6,18 @@ const path = require('path');
 
 module.exports = {
     mode: 'production',
-    entry: './src/index.js',
+    entry: path.join(__dirname, 'src', 'index.js'),
     devtool: 'inline-source-map',
+    performance: {
+            maxEntrypointSize: 5120000,
+            maxAssetSize: 5120000
+       },
     devServer: {
         static: './dist-prod',
         hot: false,
         open: true,
         liveReload: false,
+        historyApiFallback: true,
     },
 
     output: {

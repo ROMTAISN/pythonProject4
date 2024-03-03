@@ -2,7 +2,8 @@
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
   \*****************************************************************/
 body {
-    background-color: aqua;
+    background-color: red;
+    text-align: center;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5jc3MiLCJtYXBwaW5ncyI6Ijs7O0FBQUE7SUFDSSxzQkFBc0I7QUFDMUIsQyIsInNvdXJjZXMiOlsid2VicGFjazovL215X3Byb2plY3QvLi9zcmMvc3R5bGUuY3NzIl0sInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogYXF1YTtcclxufSJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==*/
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5jc3MiLCJtYXBwaW5ncyI6Ijs7O0FBQUE7SUFDSSx3QkFBd0I7SUFDeEIsa0JBQWtCO0FBQ3RCLEMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9teV9wcm9qZWN0Ly4vc3JjL3N0eWxlLmNzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJib2R5IHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHllbGxvdztcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufSJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==*/
